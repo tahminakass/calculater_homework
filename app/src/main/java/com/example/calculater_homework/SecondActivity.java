@@ -30,7 +30,6 @@ public class SecondActivity extends AppCompatActivity {
         });
         Intent intent = getIntent();
         int result = intent.getIntExtra("result", 0);
-
         resultView = findViewById(R.id.text_name);
         resultView.setText(String.valueOf(result));
     }
